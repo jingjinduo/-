@@ -1,0 +1,3 @@
+Cache Aside Pattern（旁路缓存模式）
+比较适合读请求比较多的场景。
+Cache Aside Pattern 中服务端需要同时维系 DB 和 cache，并且是以 DB 的结果为准。
